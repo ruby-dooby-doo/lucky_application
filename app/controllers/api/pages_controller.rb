@@ -21,4 +21,9 @@ class Api::PagesController < ApplicationController
     # keep track of each of the numbers
     render "lottery_numbers_view.json.jbuilder"
   end
+
+  # def page_counter_action
+  #   @counter += 1
+  #   render "page_counter_view.json.jbuilder"
+  # end
 end
